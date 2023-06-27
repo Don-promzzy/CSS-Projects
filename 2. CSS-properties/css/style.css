@@ -1,0 +1,21 @@
+body {
+    background-image: url(/2.\ CSS-properties/img/bg.jpg);
+    background-size: cover;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    border: 5px solid rgb(43, 5, 181);
+}
+
+p {
+    font-size: 20px;
+    color: purple;
+}
