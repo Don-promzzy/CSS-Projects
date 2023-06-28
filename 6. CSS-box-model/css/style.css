@@ -1,0 +1,57 @@
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(/2.\ CSS-properties/img/bg.jpg);
+    background-size: cover;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+h2, p {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    border: 5px solid rgb(43, 5, 181);
+    cursor: pointer;
+}
+
+img {
+    float: left;
+}
+
+p {
+    font-family: 'Agdasima', sans-serif;
+    font-size: 250%;
+    color: rgb(19, 43, 176);
+    line-height: 40px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.text:first-child {
+    border: 5px dashed green;
+}
+
+.active {
+    color: rgb(210, 236, 12);
+}
+
+#textzone1 {
+    background-color: rgb(0, 255, 0, 0.2);
+}
+
+#textzone2 {
+    background-color: rgb(0, 0, 255, 0.2);
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: white;
+}
